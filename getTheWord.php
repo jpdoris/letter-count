@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: jdoris
- * Date: 8/20/15
- * Time: 5:13 PM
+ * Coding Problem -
+ * Write a function that accepts a file path as its argument, and returns the
+ * word with highest count of a single letter as its output.  In the case of a
+ * tie, return the first word.
  */
 
 $input = "";
@@ -14,11 +14,6 @@ if (defined('STDIN')) {
 }
 
 /**
- * Coding Problem -
- * Write a function that accepts a file path as its argument, and returns the
- * word with highest count of a single letter as its output.  In the case of a
- * tie, return the first word.
- *
  * @param $filepath
  * @return false|int|string
  */
